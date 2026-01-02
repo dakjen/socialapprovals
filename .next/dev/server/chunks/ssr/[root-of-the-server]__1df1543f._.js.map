@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/page.tsx"],"sourcesContent":["import Link from 'next/link';\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-gray-100 flex items-center justify-center\">\n      <div className=\"max-w-md w-full bg-white p-8 rounded-lg shadow-md text-center\">\n        <h1 className=\"text-2xl font-bold text-gray-800 mb-4\">Welcome to Social Approvals</h1>\n        <p className=\"text-gray-600 mb-8\">\n          Please log in to continue.\n        </p>\n        <Link href=\"/login\" className=\"bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline\">\n          Go to Login\n        </Link>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qQAAC;QAAI,WAAU;kBACb,cAAA,qQAAC;YAAI,WAAU;;8BACb,qQAAC;oBAAG,WAAU;8BAAwC;;;;;;8BACtD,qQAAC;oBAAE,WAAU;8BAAqB;;;;;;8BAGlC,qQAAC,iNAAI;oBAAC,MAAK;oBAAS,WAAU;8BAA+G;;;;;;;;;;;;;;;;;AAMrJ"}}]
+}

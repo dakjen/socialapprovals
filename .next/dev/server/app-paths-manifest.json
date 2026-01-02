@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/portal/instagram/new/page": "app/portal/instagram/new/page.js",
+  "/portal/instagram/page": "app/portal/instagram/page.js",
+  "/portal/page": "app/portal/page.js",
+  "/portal/profiles/page": "app/portal/profiles/page.js",
+  "/portal/users/page": "app/portal/users/page.js",
+  "/register/page": "app/register/page.js"
+}

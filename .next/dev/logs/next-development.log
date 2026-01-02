@@ -1,0 +1,1140 @@
+[00:00:01.308] Server  LOG     ✓ Ready in 979ms
+[00:09:12.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:14.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:15.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:59.765] Server  LOG     ✓ Compiled in 153ms
+[00:15:02.995] Server  LOG     ✓ Compiled in 40ms
+[00:21:49.164] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:17.614] Server  LOG     ✓ Compiled in 100ms
+[00:24:25.532] Server  LOG     ✓ Compiled in 67ms
+[00:24:53.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:55.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:09.689] Server  LOG     ✓ Compiled in 24ms
+[00:30:43.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:08.327] Server  LOG     ✓ Compiled in 0ms
+[00:32:08.453] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:29.206] Server  LOG     ✓ Compiled in 58ms
+[00:33:21.664] Server  LOG     ✓ Compiled in 32ms
+[00:33:54.249] Server  LOG     ✓ Compiled in 200ms
+[00:34:23.957] Server  LOG     ✓ Compiled in 100ms
+[00:35:02.462] Server  LOG     ✓ Compiled in 153ms
+[00:35:29.484] Server  LOG     ✓ Compiled in 110ms
+[00:36:11.399] Server  LOG     ✓ Compiled in 31ms
+[00:36:11.503] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:36:17
+Parsing ecmascript source code failed
+  34 |   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  35 |     const files = e.target.files;
+> 36 |     if (files) {.
+     |                 ^
+  37 |       if (files.length > 10) {
+  38 |         alert("You can only upload up to 10 photos.");
+  39 |         return;
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[00:36:47.421] Server  LOG     ✓ Compiled in 45ms
+[00:36:47.524] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:36:17
+Parsing ecmascript source code failed
+  34 |   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  35 |     const files = e.target.files;
+> 36 |     if (files) {.
+     |                 ^
+  37 |       if (files.length > 10) {
+  38 |         alert("You can only upload up to 10 photos.");
+  39 |         return;
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[00:37:49.991] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:36:17
+Parsing ecmascript source code failed
+  34 |   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  35 |     const files = e.target.files;
+> 36 |     if (files) {.
+     |                 ^
+  37 |       if (files.length > 10) {
+  38 |         alert("You can only upload up to 10 photos.");
+  39 |         return;
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[00:42:38.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:53.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:46.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:08.025] Server  LOG     ✓ Compiled in 253ms
+[00:44:28.489] Server  LOG     ✓ Compiled in 91ms
+[00:45:51.497] Server  LOG     ✓ Compiled in 269ms
+[00:46:09.801] Server  LOG     ✓ Compiled in 157ms
+[00:47:44.019] Server  LOG     ✓ Compiled in 290ms
+[00:48:18.783] Server  LOG     ✓ Compiled in 129ms
+[01:16:07.273] Server  LOG     ✓ Compiled in 85ms
+[01:16:43.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:30.782] Server  LOG     ✓ Compiled in 182ms
+[01:47:39.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:27.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:04.925] Server  LOG     ✓ Compiled in 143ms
+[01:51:35.922] Server  LOG     ✓ Compiled in 181ms
+[01:52:15.167] Server  LOG     ✓ Compiled in 52ms
+[01:52:52.391] Server  LOG     ✓ Compiled in 234ms
+[01:55:05.958] Server  LOG     ✓ Compiled in 352ms
+[02:07:22.132] Server  LOG     ✓ Compiled in 246ms
+[02:07:52.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:09:35.256] Server  LOG     ✓ Compiled in 239ms
+[02:09:35.359] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:13.613] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:23.687] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:23.704] Server  LOG     ✓ Compiled in 94ms
+[02:11:23.807] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:24.467] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:24.467] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:24.843] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:24.854] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:24.892] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:24.939] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:24.987] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:25.024] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+
+./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:25.146] Browser ERROR   uncaughtError: Error: ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+
+[02:11:25.325] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:25.326] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:11:51.051] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:14:28.286] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:14:28.286] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:14:28.391] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:15:42.839] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:240:1
+Ecmascript file had an error
+  238 | export default NewInstagramPostPage;
+  239 |
+> 240 | export default NewInstagramPostPage;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  241 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:17:39.081] Server  LOG     ✓ Compiled in 206ms
+[02:17:39.671] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:17:52.972] Server  LOG     ✓ Compiled in 108ms
+[02:17:53.076] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx
+Error evaluating Node.js code
+SyntaxError: /Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/instagram/new/page.tsx: Identifier 'PostPreview' has already been declared. (7:6)
+
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+    [at constructor (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:137105)]
+    [at TypeScriptParserMixin.raise (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:194164)]
+    [at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:163166)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:162529)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:271160)]
+    [at TypeScriptParserMixin.declareNameFromIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279226)]
+    [at TypeScriptParserMixin.checkIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279152)]
+    [at TypeScriptParserMixin.checkLVal (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:278197)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:403644)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:329902)]
+    [at TypeScriptParserMixin.parseVar (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:402884)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:399366)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:323322)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:391398)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
+    [at TypeScriptParserMixin.parseStatementLike (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
+    [at TypeScriptParserMixin.parseModuleItem (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389055)]
+    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401400)]
+    [at TypeScriptParserMixin.parseBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
+    [at TypeScriptParserMixin.parseProgram (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386857)]
+    [at TypeScriptParserMixin.parseTopLevel (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386575)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:426834)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:337631)]
+    [at parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:427092)]
+    [at parser (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/util.js:13:38)]
+    [at transform (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/transform.js:89:44)]
+    [at async (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:17:53.076] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:7:7
+Ecmascript file had an error
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^^^^^^^^^^^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+
+the name `PostPreview` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:19:48.042] Server  LOG     ✓ Compiled in 1249ms
+[02:19:48.145] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx
+Error evaluating Node.js code
+SyntaxError: /Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/instagram/new/page.tsx: Identifier 'PostPreview' has already been declared. (7:6)
+
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+    [at constructor (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:137105)]
+    [at TypeScriptParserMixin.raise (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:194164)]
+    [at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:163166)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:162529)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:271160)]
+    [at TypeScriptParserMixin.declareNameFromIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279226)]
+    [at TypeScriptParserMixin.checkIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279152)]
+    [at TypeScriptParserMixin.checkLVal (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:278197)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:403644)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:329902)]
+    [at TypeScriptParserMixin.parseVar (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:402884)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:399366)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:323322)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:391398)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
+    [at TypeScriptParserMixin.parseStatementLike (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
+    [at TypeScriptParserMixin.parseModuleItem (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389055)]
+    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401400)]
+    [at TypeScriptParserMixin.parseBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
+    [at TypeScriptParserMixin.parseProgram (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386857)]
+    [at TypeScriptParserMixin.parseTopLevel (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386575)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:426834)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:337631)]
+    [at parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:427092)]
+    [at parser (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/util.js:13:38)]
+    [at transform (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/transform.js:89:44)]
+    [at async (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:19:48.145] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:7:7
+Ecmascript file had an error
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^^^^^^^^^^^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+
+the name `PostPreview` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:20:18.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:18.348] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx
+Error evaluating Node.js code
+SyntaxError: /Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/instagram/new/page.tsx: Identifier 'PostPreview' has already been declared. (7:6)
+
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+    [at constructor (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:137105)]
+    [at TypeScriptParserMixin.raise (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:194164)]
+    [at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:163166)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:162529)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:271160)]
+    [at TypeScriptParserMixin.declareNameFromIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279226)]
+    [at TypeScriptParserMixin.checkIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279152)]
+    [at TypeScriptParserMixin.checkLVal (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:278197)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:403644)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:329902)]
+    [at TypeScriptParserMixin.parseVar (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:402884)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:399366)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:323322)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:391398)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
+    [at TypeScriptParserMixin.parseStatementLike (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
+    [at TypeScriptParserMixin.parseModuleItem (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389055)]
+    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401400)]
+    [at TypeScriptParserMixin.parseBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
+    [at TypeScriptParserMixin.parseProgram (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386857)]
+    [at TypeScriptParserMixin.parseTopLevel (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386575)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:426834)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:337631)]
+    [at parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:427092)]
+    [at parser (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/util.js:13:38)]
+    [at transform (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/transform.js:89:44)]
+    [at async (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:20:18.348] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:7:7
+Ecmascript file had an error
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^^^^^^^^^^^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+
+the name `PostPreview` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:20:18.348] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx
+Error evaluating Node.js code
+SyntaxError: /Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/instagram/new/page.tsx: Identifier 'PostPreview' has already been declared. (7:6)
+
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+    [at constructor (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:137105)]
+    [at TypeScriptParserMixin.raise (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:194164)]
+    [at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:163166)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:162529)]
+    [at TypeScriptScopeHandler.declareName (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:271160)]
+    [at TypeScriptParserMixin.declareNameFromIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279226)]
+    [at TypeScriptParserMixin.checkIdentifier (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:279152)]
+    [at TypeScriptParserMixin.checkLVal (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:278197)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:403644)]
+    [at TypeScriptParserMixin.parseVarId (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:329902)]
+    [at TypeScriptParserMixin.parseVar (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:402884)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:399366)]
+    [at TypeScriptParserMixin.parseVarStatement (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:323322)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:391398)]
+    [at TypeScriptParserMixin.parseStatementContent (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:324042)]
+    [at TypeScriptParserMixin.parseStatementLike (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389494)]
+    [at TypeScriptParserMixin.parseModuleItem (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:389055)]
+    [at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401400)]
+    [at TypeScriptParserMixin.parseBlockBody (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:401223)]
+    [at TypeScriptParserMixin.parseProgram (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386857)]
+    [at TypeScriptParserMixin.parseTopLevel (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:386575)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:426834)]
+    [at TypeScriptParserMixin.parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:337631)]
+    [at parse (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:191:427092)]
+    [at parser (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/compiled/babel/bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/util.js:13:38)]
+    [at transform (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/transform.js:89:44)]
+    [at async (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/node_modules/next/dist/build/babel/loader/index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/.next/dev/build/chunks/[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:20:18.348] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:7:7
+Ecmascript file had an error
+   5 | import PostPreview from './PostPreview';
+   6 |
+>  7 | const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+     |       ^^^^^^^^^^^
+   8 |   const [currentIndex, setCurrentIndex] = useState(0);
+   9 |   const scrollRef = React.useRef<HTMLDivElement>(null);
+  10 |
+
+the name `PostPreview` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+[02:20:34.454] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:34.455] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:34.456] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:34.457] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:20:34.583] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:49.234] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.235] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.236] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.237] Server  ERROR   ⨯ ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.368] Browser ERROR   ./social-approvals/src/app/portal/instagram/new/page.tsx:5:1
+Module not found: Can't resolve './PostPreview'
+  3 |
+  4 | import React, { useState } from 'react';
+> 5 | import PostPreview from './PostPreview';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const NewInstagramPostPage = () => {
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component Browser]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Client Component SSR]
+    ./social-approvals/src/app/portal/instagram/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:22:42.643] Server  LOG     ✓ Compiled in 200ms

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/instagram/page.tsx"],"sourcesContent":["\nimport React from 'react';\nimport Link from 'next/link';\n\nconst InstagramPage = () => {\n  return (\n    <div>\n      <div className=\"flex justify-between items-center mb-8\">\n        <h1 className=\"text-2xl font-bold\">Instagram Integration</h1>\n        <Link href=\"/portal/instagram/new\">\n          <button className=\"bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded\">\n            Create New Post\n          </button>\n        </Link>\n      </div>\n      <p>This is where the Instagram content will be displayed.</p>\n    </div>\n  );\n};\n\nexport default InstagramPage;\n"],"names":[],"mappings":";;;;;AAEA;;;AAEA,MAAM,gBAAgB;IACpB,qBACE,qQAAC;;0BACC,qQAAC;gBAAI,WAAU;;kCACb,qQAAC;wBAAG,WAAU;kCAAqB;;;;;;kCACnC,qQAAC,iNAAI;wBAAC,MAAK;kCACT,cAAA,qQAAC;4BAAO,WAAU;sCAAuE;;;;;;;;;;;;;;;;;0BAK7F,qQAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe"}}]
+}

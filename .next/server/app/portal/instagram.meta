@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/portal/layout,_N_T_/portal/instagram/layout,_N_T_/portal/instagram/page,_N_T_/portal/instagram"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/portal/instagram/__PAGE__",
+    "/portal/instagram",
+    "/portal",
+    "/_index",
+    "/_head"
+  ]
+}

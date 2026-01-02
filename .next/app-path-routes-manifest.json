@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/page": "/",
+  "/portal/instagram/new/page": "/portal/instagram/new",
+  "/portal/instagram/page": "/portal/instagram",
+  "/portal/page": "/portal",
+  "/portal/profiles/page": "/portal/profiles",
+  "/portal/users/page": "/portal/users",
+  "/register/page": "/register"
+}
