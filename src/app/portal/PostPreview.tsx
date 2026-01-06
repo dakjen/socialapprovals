@@ -45,8 +45,8 @@ const PostPreview = ({ images, caption, username, date, profilePicUrl }: { image
           style={{ scrollSnapType: 'x mandatory' }}
         >
           {images.map((src, index) => (
-            <div key={index} className="flex-shrink-0 w-full" style={{ scrollSnapAlign: 'center' }}>
-              <img src={src} alt={`Preview ${index + 1}`} className="w-full object-contain" />
+            <div key={index} className="flex-shrink-0 w-full relative pt-[125%]" style={{ scrollSnapAlign: 'center' }}> {/* 1350/1080 = 1.25 = 125% */}
+              <img src={src} alt={`Preview ${index + 1}`} className="absolute top-0 left-0 w-full h-full object-cover" />
             </div>
           ))}
         </div>
