@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/dakotahjennifer/Desktop/Randomprojects/social-approvals/src/app/portal/page.tsx"],"sourcesContent":["\nimport React from 'react';\n\nconst PortalPage = () => {\n  return (\n    <div>\n      <h1 className=\"text-2xl font-bold\">Welcome to the Portal</h1>\n      <p>This is the main content area.</p>\n    </div>\n  );\n};\n\nexport default PortalPage;\n"],"names":[],"mappings":";;;;;;AAGA,MAAM,aAAa;IACjB,qBACE,qQAAC;;0BACC,qQAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,qQAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe"}}]
-}

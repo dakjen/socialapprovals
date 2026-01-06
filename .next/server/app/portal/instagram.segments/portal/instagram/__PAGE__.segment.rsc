@@ -1,6 +1,9 @@
 1:"$Sreact.fragment"
-2:I[21712,["/_next/static/chunks/9b6b6aeee6ffd821.js"],""]
-3:I[44248,["/_next/static/chunks/587f03c64a4cd564.js","/_next/static/chunks/cb56723d953f275d.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"ztftfhNKfTIamwaLDbFv1","rsc":["$","$1","c",{"children":[["$","div",null,{"children":[["$","div",null,{"className":"flex justify-between items-center mb-8","children":[["$","h1",null,{"className":"text-2xl font-bold","children":"Instagram Integration"}],["$","$L2",null,{"href":"/portal/instagram/new","children":["$","button",null,{"className":"bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded","children":"Create New Post"}]}]]}],["$","p",null,{"children":"This is where the Instagram content will be displayed."}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"ClientPageRoot"]
+3:I[63327,["/_next/static/chunks/c3ac013db261fd9b.js","/_next/static/chunks/29f6591b15aecf70.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"s39caiZ4G_yxMMy95WBQG","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/29f6591b15aecf70.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:{}
+8:null

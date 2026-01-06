@@ -1,3 +1,0 @@
-module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},85475,a=>{a.n(a.i(81282))},82589,a=>{a.n(a.i(66395))},28522,a=>{a.n(a.i(68148))},53664,a=>{a.n(a.i(18750))},84430,a=>{a.n(a.i(43706))},1916,a=>{a.n(a.i(57692))},82455,a=>{"use strict";var b=a.i(61706);a.s(["default",0,()=>(0,b.jsxs)("div",{children:[(0,b.jsx)("h1",{className:"text-2xl font-bold",children:"Welcome to the Portal"}),(0,b.jsx)("p",{children:"This is the main content area."})]})])}];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__40cc0080._.js.map

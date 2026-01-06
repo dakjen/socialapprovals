@@ -141,7 +141,7 @@ self.__SERVER_FILES_MANIFEST={
     }
   },
   "appDir": "/Users/dakotahjennifer/Desktop/Randomprojects/social-approvals",
-  "relativeAppDir": "social-approvals",
+  "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",
