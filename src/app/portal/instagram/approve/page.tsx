@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import PostPreview from '../../../PostPreview';
+import PostPreview from '../../PostPreview';
 
 interface PostData {
   profileId: string;
@@ -13,7 +13,8 @@ interface PostData {
   username: string; // To display in preview
 }
 
-const ApprovePostPage = () => {
+// New inner component to handle client-side logic
+const ApprovePostContent = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [postData, setPostData] = useState<PostData | null>(null);
@@ -23,31 +24,25 @@ const ApprovePostPage = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // This is a temporary way to pass data. In a real app, you'd use a state management solution
-    // or a temporary backend storage for the draft post.
     const storedPostData = sessionStorage.getItem('draftPost');
     if (storedPostData) {
       const parsedData: PostData = JSON.parse(storedPostData);
       setPostData(parsedData);
-      sessionStorage.removeItem('draftPost'); // Clear after use
+      sessionStorage.removeItem('draftPost');
     } else {
-      // If no post data, redirect back to new post page
       router.push('/portal/instagram/new');
     }
 
-    // Fetch approvers (placeholder for now)
     const fetchApprovers = async () => {
-      // In a real app, this would fetch users with an 'approver' role
-      // For now, returning dummy data or fetching all users
       try {
-        const response = await fetch('/api/users'); // Assuming /api/users returns all users
+        const response = await fetch('/api/users');
         if (!response.ok) {
           throw new Error('Failed to fetch approvers');
         }
         const data = await response.json();
         setApprovers(data.map((user: any) => ({ id: String(user.id), name: user.name })));
         if (data.length > 0) {
-          setSelectedApprover(String(data[0].id)); // Select first approver by default
+          setSelectedApprover(String(data[0].id));
         }
       } catch (err: any) {
         console.error('Error fetching approvers:', err);
@@ -70,27 +65,13 @@ const ApprovePostPage = () => {
     formData.append('profileId', postData.profileId);
     formData.append('caption', postData.caption);
     formData.append('date', postData.date);
-    formData.append('approverId', selectedApprover); // Send approver ID
+    formData.append('approverId', selectedApprover);
 
-    // Re-create File objects if necessary (sessionStorage doesn't store File objects directly)
-    // For this example, we'll assume imageFiles can be reconstructed or we rely on previews
-    // This part would need proper handling in a real application
-    // For now, we'll just re-use the imagePreviews if imageFiles isn't available
     if (postData.imageFiles && postData.imageFiles.length > 0) {
-      postData.imageFiles.forEach((file: any) => { // file might be a plain object after JSON.parse
-        // Reconstruct File object from base64 if it was stringified, or handle properly
-        // For simplicity, we assume new images will be uploaded in NewInstagramPostPage
-        // and here we just send the text data.
-        // A better approach would be to upload images to temporary storage when creating draft,
-        // and then pass temporary URLs here.
-        formData.append('images', file); // This will only work if `file` is still a File object
+      postData.imageFiles.forEach((file: any) => {
+        formData.append('images', file);
       });
-    } else {
-        // Fallback or error if no imageFiles are present in postData for a real upload
-        // For this example, we'll proceed assuming imagePreviews are sufficient for display
-        // and actual image upload happens before this stage or is not strictly required here.
     }
-
 
     try {
       const response = await fetch('/api/posts', {
@@ -103,7 +84,7 @@ const ApprovePostPage = () => {
         throw new Error(errorData.error || 'Failed to send post for approval');
       }
 
-      router.push('/portal/instagram'); // Redirect to Instagram page after sending for approval
+      router.push('/portal/instagram');
     } catch (err: any) {
       console.error('Error sending post for approval:', err);
       setError(err.message || 'An unknown error occurred');
@@ -166,6 +147,15 @@ const ApprovePostPage = () => {
         </div>
       </div>
     </div>
+  );
+};
+
+// Main page component that wraps the client-side content with Suspense
+const ApprovePostPage = () => {
+  return (
+    <Suspense fallback={<div>Loading approval page...</div>}>
+      <ApprovePostContent />
+    </Suspense>
   );
 };
 
