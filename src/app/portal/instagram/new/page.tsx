@@ -1,52 +1,63 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import PostPreview from '../../PostPreview';
 
 interface SocialProfile {
   id: number;
   username: string;
   platform: string;
+  profilePicUrl: string; // Added this line
 }
 
-
+// Define a local PostData interface
+interface PostData {
+  profileId: string;
+  caption: string;
+  date: string;
+  imagePreviews: string[];
+  username: string;
+  profilePicUrl: string;
+}
 
 const NewInstagramPostPage = () => {
+  const router = useRouter(); // Added this line
   const [imageFiles, setImageFiles] = useState<File[]>([]);
   const [imagePreviews, setImagePreviews] = useState<string[]>([]);
   const [caption, setCaption] = useState('');
-  const [selectedProfileId, setSelectedProfileId] = useState<string>(''); // Changed to selectedProfileId
+  const [selectedProfileId, setSelectedProfileId] = useState<string>('');
   const [date, setDate] = useState('');
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<string | null>(null);
-    const [success, setSuccess] = useState<boolean>(false);
-    const [socialProfiles, setSocialProfiles] = useState<SocialProfile[]>([]); // State for fetched social profiles
-    const [fetchingProfiles, setFetchingProfiles] = useState(true);
-  
-    // Fetch social media profiles on component mount
-    const fetchSocialProfiles = useCallback(async () => {
-      setFetchingProfiles(true);
-      try {
-        const response = await fetch('/api/profiles');
-        if (!response.ok) {
-          throw new Error('Failed to fetch social media profiles');
-        }
-        const data: SocialProfile[] = await response.json();
-        setSocialProfiles(data);
-        if (data.length > 0) {
-          setSelectedProfileId(String(data[0].id)); // Select first profile by default
-        }
-      } catch (err: any) {
-        setError(err.message);
-      } finally {
-        setFetchingProfiles(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [success, setSuccess] = useState<boolean>(false);
+  const [socialProfiles, setSocialProfiles] = useState<SocialProfile[]>([]);
+  const [fetchingProfiles, setFetchingProfiles] = useState(true);
+
+  // Fetch social media profiles on component mount
+  const fetchSocialProfiles = useCallback(async () => {
+    setFetchingProfiles(true);
+    try {
+      const response = await fetch('/api/profiles');
+      if (!response.ok) {
+        throw new Error('Failed to fetch social media profiles');
       }
-    }, []);
-  
-    useEffect(() => {
-      fetchSocialProfiles();
-    }, [fetchSocialProfiles]);
+      const data: SocialProfile[] = await response.json();
+      setSocialProfiles(data);
+      if (data.length > 0) {
+        setSelectedProfileId(String(data[0].id)); // Select first profile by default
+      }
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setFetchingProfiles(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchSocialProfiles();
+  }, [fetchSocialProfiles]);
 
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
@@ -75,7 +86,7 @@ const NewInstagramPostPage = () => {
   };
 
   const handlePrevImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? imagePreviews.length - 1 : prevIndex - 1));
+    setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? imagePreviews.length - 1 : prevIndex + 1));
   };
 
   const handleNextImage = () => {
@@ -84,63 +95,42 @@ const NewInstagramPostPage = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('handleSubmit started');
     setLoading(true);
     setError(null);
     setSuccess(false);
 
-    const formData = new FormData();
-    formData.append('profileId', selectedProfileId);
-    formData.append('caption', caption);
-    formData.append('date', date);
-    for (const imageFile of imageFiles) {
-      formData.append('images', imageFile);
-    }
-
-    console.log('Sending FormData to /api/posts');
-
-    try {
-      const response = await fetch('/api/posts', {
-        method: 'POST',
-        body: formData,
-      });
-      console.log('Received response from /api/posts:', response);
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        console.error('API error:', errorData);
-        throw new Error(errorData.error || 'Failed to create post');
-      }
-
-      const result = await response.json();
-      console.log('Post created:', result.post);
-      setSuccess(true);
-      setCaption('');
-      setSelectedProfileId('');
-      setDate('');
-      setImageFiles([]);
-      setImagePreviews([]);
-      setCurrentImageIndex(0);
-      if (socialProfiles.length > 0) {
-        setSelectedProfileId(String(socialProfiles[0].id));
-      }
-    } catch (err: any) {
-      console.error('Error in handleSubmit:', err);
-      setError(err.message || 'An unknown error occurred');
-    } finally {
-      console.log('handleSubmit finished');
+    // Find the currently selected profile
+    const currentProfile = socialProfiles.find(p => String(p.id) === selectedProfileId);
+    if (!currentProfile) {
+      setError('Selected social profile not found.');
       setLoading(false);
+      return;
     }
+
+    const draftPostData: PostData = {
+      profileId: selectedProfileId,
+      caption: caption,
+      date: date,
+      imagePreviews: imagePreviews,
+      username: currentProfile.username, // Use username from fetched profile
+      profilePicUrl: currentProfile.profilePicUrl, // Use profilePicUrl from fetched profile
+    };
+
+    sessionStorage.setItem('draftPost', JSON.stringify(draftPostData));
+    setLoading(false);
+    // Redirect to the approval page
+    router.push('/portal/instagram/approve');
   };
 
   const selectedProfileUsername = socialProfiles.find(p => String(p.id) === selectedProfileId)?.username || 'N/A';
+  const selectedProfileProfilePicUrl = socialProfiles.find(p => String(p.id) === selectedProfileId)?.profilePicUrl || '/default-profile-pic.png';
 
   return (
     <div className="max-w-7xl mx-auto p-4 md:p-8">
       <div className="flex flex-col md:flex-row gap-8"> {/* Changed to flex-row for two columns */}
         {/* Left Column: Post Preview */}
         <div className="md:w-1/2"> {/* Adjusted width for two columns */}
-          <PostPreview images={imagePreviews} caption={caption} username={selectedProfileUsername} date={date} />
+          <PostPreview images={imagePreviews} caption={caption} username={selectedProfileUsername} date={date} profilePicUrl={selectedProfileProfilePicUrl} />
         </div>
 
         {/* Right Column: Form */}

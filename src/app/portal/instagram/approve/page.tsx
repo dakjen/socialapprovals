@@ -8,9 +8,10 @@ interface PostData {
   profileId: string;
   caption: string;
   date: string;
-  imageFiles: File[]; // Note: Files cannot be passed directly via URL params
+  imageFiles: File[]; // Re-added to fix build error
   imagePreviews: string[];
   username: string; // To display in preview
+  profilePicUrl: string; // Added this line
 }
 
 // New inner component to handle client-side logic
@@ -108,6 +109,7 @@ const ApprovePostContent = () => {
             caption={postData.caption}
             username={postData.username}
             date={postData.date}
+            profilePicUrl={postData.profilePicUrl} // Added this line
           />
         </div>
 

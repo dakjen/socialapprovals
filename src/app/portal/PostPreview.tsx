@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const PostPreview = ({ images, caption, username, date }: { images: string[], caption: string, username: string, date: string }) => {
+const PostPreview = ({ images, caption, username, date, profilePicUrl }: { images: string[], caption: string, username: string, date: string, profilePicUrl: string }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const scrollRef = React.useRef<HTMLDivElement>(null);
 
@@ -31,7 +31,7 @@ const PostPreview = ({ images, caption, username, date }: { images: string[], ca
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b">
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-gray-300 rounded-full mr-3"></div>
+          <img src={profilePicUrl} alt="Profile" className="w-8 h-8 rounded-full mr-3 object-cover" />
           <p className="font-bold text-[#000000]">{username}</p>
         </div>
         <button className="text-2xl font-bold">&hellip;</button>

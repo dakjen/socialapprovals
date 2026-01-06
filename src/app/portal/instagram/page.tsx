@@ -134,6 +134,7 @@ const InstagramPage = () => {
               caption={selectedPost.caption}
               username={selectedPost.profile.username}
               date={selectedPost.date}
+              profilePicUrl={selectedPost.profile.profilePicUrl || '/default-profile-pic.png'}
             />
           </div>
         </div>
